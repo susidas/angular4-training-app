@@ -1,0 +1,25 @@
+<nav class="navbar navbar-inverse" role="navigation">
+	<!--title header-->
+	<div class="row col-md-12">
+		<div class="col-md-4 navbar-header">		
+			<a class="navbar-brand" href="/"><img class="logo" src="./images/logo.svg" alt="TIAA logo"></a>
+		</div>
+		<div class="col-md-3 navbar-brand  text-center">		
+			<h3 class="mts">Offer & Portfolio Management</h3>
+		</div>	
+		<div class="col-md-5 collapse navbar-collapse navbar-menu-collapse pull-right">
+			<ul class="nav navbar-nav navbar-right">			
+				<li class="disabled"> <a>Client Details</a></li>
+				<!-- <li class="active"> <a routerLink="data-management" routerLinkActive="active"> <strong>Data Management</strong></a></li>
+				 -->
+				<li class="disabled"><a><strong>Data Management</strong></a></li>
+				<li class="active"><a routerLink="offer-management" routerLinkActive="active"><strong>Dashboard</strong></a></li>
+				<li class="disabled"><a>Version Details</a></li>
+				<li class="hidden"><a routerLink="questionnaire" routerLinkActive="active">Questionnaire</a></li>			
+			</ul>
+		</div>
+	</div>	
+</nav>
+<div class="container-fluid content-container">
+	<router-outlet></router-outlet>	
+</div>

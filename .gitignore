@@ -1,2 +1,7 @@
-node_moduels/
+node_modules/
 dist/
+client/.typingsrc
+client/typings
+server/.typingsrc
+server/typings
+.typingsrc
